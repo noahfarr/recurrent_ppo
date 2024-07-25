@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "recurrent-ppo"
+version = "0.1.0"
+description = ""
+authors = ["Noah Farr <login@noahfarr.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+gymnasium = "^0.29.1"
+numpy = "^2.0.1"
+torch = "^2.4.0"
+tyro = "^0.8.5"
+stable-baselines3 = "^2.3.2"
+wandb = "^0.17.5"
+tensorboard = "^2.17.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
